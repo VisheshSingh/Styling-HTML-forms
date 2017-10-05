@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Styling HTML Forms</title>
+</head>
+<body>
+    <header>
+        <img src="form.png" alt="form logo">
+    </header>
+    
+    <!--form start-->
+    <form>
+        <p>You are a...</p>
+        <input type="radio" id="male" name="gender"/>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender"/>
+        <label for="female">Female</label><br>
+
+        <p>Who is interested in...</p>
+        <input type="checkbox" id="web"/>
+        <label for="web">Web Development</label><br>
+        <input type="checkbox" id="Databases"/>
+        <label for="Databases">Databases</label><br>
+        <input type="checkbox" id="photoshop"/>
+        <label for="photoshop">Photoshop</label><br>
+
+        <fieldset>
+            <legend>Contact Info</legend>
+            <input type="text" id="email" placeholder="Email"/>
+            <span class="tick"></span>
+            <input type="text" id="phone" placeholder="Phone"/>
+            <span class="tick"></span>
+        </fieldset>
+
+        <p>How would you like to be contacted?</p>
+        <select>
+            <option>By Email</option>
+            <option>By Phone</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
