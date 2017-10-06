@@ -49,3 +49,27 @@ input:checked + label[for="female"] {
     background-position: 0 0;
     color: #ce1010;
 }
+
+/*STYLING CHECKBOXES*/
+input[type="checkbox"] {
+    opacity:0;
+    width:0;
+    margin:0;
+}
+
+label[for="web"], label[for="Databases"], label[for="photoshop"] {
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-left: 26px;
+    background: url('img/checks.png') no-repeat;
+    background-position: 0 -98px;
+    line-height: 24px;
+    cursor: pointer;  
+}
+
+input:checked + label[for="web"],
+input:checked + label[for="Databases"],
+input:checked + label[for="photoshop"] {
+    background-position: 0 -65px;
+    color: #ce1010;
+}
