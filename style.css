@@ -1,0 +1,28 @@
+/*BASE FORM STYLES*/
+
+body {
+    background: #141414;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #666;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+}
+
+form{
+    margin: 20px;
+    color: #eee;
+}
+
+form p {
+    letter-spacing: 0.1rem;
+    font-size: 18px;
+}
